@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/telegram",
+      "destination": "/api/telegram.js"
+    },
+    {
+      "source": "/((?!api/|css/|js/|bot/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
